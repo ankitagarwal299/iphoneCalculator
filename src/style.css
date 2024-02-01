@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+}
+
+.App {
+  width: 500px;
+  background-color: #000;
+  color: #fff;
+  border-radius: 15px;
+  padding: 20px;
+}
+
+.top {
+  height: 150px;
+}
+
+.display {
+  font-size: 130px;
+  text-align: right;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+
+.buttons {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-rows: repeat(5, 1fr);
+  grid-template-columns: repeat(4, 1fr);
+}
+
+
+.bottom {
+}
